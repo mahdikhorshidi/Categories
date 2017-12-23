@@ -1,0 +1,55 @@
+{
+    "name": "mahdikhorshidi/categories",
+    "type": "library",
+    "description": "MahdiKhorshidi Categories is a polymorphic Laravel package, for category management. You can categorize any eloquent model with ease, and utilize the power of Nested Sets, and the awesomeness of Sluggable, and Translatable models out of the box.",
+    "keywords": [
+        "mahdikhorshidi",
+        "categories"
+    ],
+    "homepage": "https://github.com/mahdikhorshidi/categories",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mahdi Khorshidi",
+            "email": "mahdikhorshidi@gmail.com",
+            "homepage": "http://mahdikhorshidi.ir",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0.0",
+        "kalnoy/nestedset": "^4.3.0",
+        "watson/validating": "^3.0.1",
+        "illuminate/support": "~5.5.0",
+        "illuminate/database": "~5.5.0",
+        "spatie/laravel-sluggable": "^2.0.0",
+        "spatie/laravel-translatable": "^2.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : ">=5.4.3",
+        "squizlabs/php_codesniffer": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "mahdikhorshidi\\categories\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "mahdikhorshidi\\categories\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+        "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
