@@ -1,7 +1,7 @@
 {
     "name": "mahdikhorshidi/categories",
     "type": "library",
-    "description": ":package_description",
+    "description": "MahdiKhorshidi Categories is a polymorphic Laravel package, for category management. You can categorize any eloquent model with ease, and utilize the power of Nested Sets, and the awesomeness of Sluggable, and Translatable models out of the box.",
     "keywords": [
         "mahdikhorshidi",
         "categories"
@@ -10,9 +10,9 @@
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "Mahdi Khorshidi",
+            "email": "mahdikhorshidi@gmail.com",
+            "homepage": "http://mahdikhorshidi.ir",
             "role": "Developer"
         }
     ],
